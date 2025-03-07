@@ -64,7 +64,7 @@ def coffee_machine():
                 else:
                     print("Sorry, that's not enough money. Money refunded.")
         else:
-            print("Invalid selection. Please choose again and again and asddddddddddddddddddddddsfhbdfnhdfhndfddddddddddegfsdkajgfsdghsdkbnvkighsdosdosdosdosdosdosdosdosdosdofhgksdfhoddddddddddddddddddddddddddddddddhsddddddddddddddddddsdfgsdddddddddddddddddfbhfdbgfhngjnghddhdddddddddddddddddddgbsdghhdfshddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddgian.")
+            print("Invalid selection. Please choose again and again and asddddddddddddddddddddddsfhbdfnhdfhndfddddddddddegfsdkajgfsdghsdkbnvkighsdosdosdosdosdosdosdosdosdosdofhgksdfhoddddddddddddddddddddddddddddddddhsddddddddddddddddddsdfgsddddddddvasssssggggggggggggddddddddddfbhfdbgfhngjnghddhdddddddddddddddddddgbsdghhdfshddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddgian.")
 
 
 coffee_machine()
