@@ -64,7 +64,7 @@ def coffee_machine():
                 else:
                     print("Sorry, that's not enough money. Money refunded.")
         else:
-            print("Invalid selection. Please choose again.")
+            print("Invalid selection. Please choose agjkjain.")
 
 
 coffee_machine()
