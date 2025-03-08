@@ -66,6 +66,7 @@ def coffee_machine():
         else:
             print("Invalid selection. Please choose again and again.")
             print("Invalid selection. Please choose again and again.")
+            print("Invalid selection. Please choose again and again.")
 
 
 coffee_machine()
