@@ -45,8 +45,7 @@ There are different types of errors:
      except ZeroDivisionError:
          print("You can't divide by zero!")
      except ValueError:
-         print("Invalid input! Please enter a number.")
-         print("Invalid input! Please enter a number.")
+         print("Invalid input! Please enter a number only.")
      ```
 
 7. **Rubber Duck Debugging**
