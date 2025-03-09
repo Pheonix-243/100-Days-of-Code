@@ -11,4 +11,6 @@ def test_subtraction():
 
 
 def test_failure():
+    assert 10 / 2 == 5  # This test will now passdef test_failure():
+    assert 10 / 2 == 5  # This test will now passdef test_failure():
     assert 10 / 2 == 5  # This test will now pass
