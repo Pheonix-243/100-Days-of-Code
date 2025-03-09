@@ -36,7 +36,6 @@ There are different types of errors:
 
 6. **Use Try-Except for Error Handling**
    - Helps prevent crashes and catch unexpected errors.
-   - Helps prevent crashes and catch unexpected errors.
    - Example:
      ```python
      try:
