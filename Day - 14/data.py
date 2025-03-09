@@ -13,5 +13,6 @@ game_data = [
     {"name": "Justin Bieber", "follower_count": 290, "description": "Musician", "country": "Canada"},
     {"name": "Drake", "follower_count": 150, "description": "Musician", "country": "Canada"},
     {"name": "Vin Diesel", "follower_count": 95, "description": "Actor", "country": "United States"},
+    {"name": "LeBron James", "follower_count": 160, "description": "Basketball Player", "country": "United States"},
     {"name": "LeBron James", "follower_count": 160, "description": "Basketball Player", "country": "United States"}
 ]
