@@ -14,3 +14,4 @@ def test_failure():
     assert 10 / 2 == 5
     assert 10 / 2 == 5587899
     assert 10 / 2 == 5587899
+    assert 10 / 2 == 5587899
