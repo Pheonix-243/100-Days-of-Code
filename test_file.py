@@ -10,7 +10,7 @@ def test_subtraction():
 
 
 def test_failure():
-    assert 10 / 2 == 512
+    assert 10 / 2 == 51246
     assert 10 / 2 == 5587899
     assert 10 / 2 == 5587899
     assert 10 / 2 == 5587899
