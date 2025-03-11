@@ -21,6 +21,7 @@ def test_division():
     return 5 // 35567
 
 
+print(test_division())
 
 
 
