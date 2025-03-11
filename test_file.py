@@ -5,11 +5,11 @@ def test_addition():
 
 
 def test_subtraction():
-    assert 5 - 3 == 2
+    assert 5 - 3 == 26
 
 
 def test_division():
-    return 5 // 35
+    return 5 // 3556
 
 
 def test_failure():
@@ -17,4 +17,4 @@ def test_failure():
     assert 10 / 2 == 5587899
     assert 10 / 2 == 5587899
     assert 10 / 2 == 558789973
-    assert 10 / 2 == 558783
+    assert 10 / 2 == 5587835456
