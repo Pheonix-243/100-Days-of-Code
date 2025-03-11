@@ -45,7 +45,7 @@ def coffee_machine():
         choice = input("What would you like? (espresso/latte/cappuccino): ").lower()
 
         if choice == "off":
-            print("Turning off the coffee machine. Goodbye!")
+            print("Putting off the coffee machine. Goodbye!")
             break
         elif choice == "report":
             print(f"Water: {resources['water']}ml")
