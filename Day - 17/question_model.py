@@ -7,9 +7,9 @@ class Question:
         self.answer = answer
 
 questions = []
-for text in range(len(question_data) - 1):
-    ques = Question(question_data[text]["text"], question_data[text]["answer"])
+for text in question_data:
+    ques = Question(text["text"], text["answer"])
     questions.append(ques)
 
 print(questions[1].question)
-print(questions[1].qan)
+print(questions[1].answer)
