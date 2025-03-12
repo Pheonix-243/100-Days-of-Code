@@ -62,7 +62,7 @@ def coffee_machine():
                     resources["money"] += cost
                     make_coffee(choice)
                 else:
-                    print("Sorry, that's not enough money. Money refunded. Insert")
+                    print("Sorry, that's not enough money. Money refunded")
         else:
             print("Invalid selection. Please choose again.")
 
