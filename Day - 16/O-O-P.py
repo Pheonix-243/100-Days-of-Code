@@ -22,4 +22,7 @@ from prettytable import PrettyTable
 
 table = PrettyTable()
 
-table.add.column('Nam')
+table.add_column("Name", ["Ama", "John", "Candy"],)
+table.add_column("School", ["Knust", "UCC", "Umat"],)
+
+print(table)
