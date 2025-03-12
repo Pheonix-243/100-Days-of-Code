@@ -25,4 +25,6 @@ table = PrettyTable()
 table.add_column("Name", ["Ama", "John", "Candy"],)
 table.add_column("School", ["Knust", "UCC", "Umat"],)
 
+table._align = 
+
 print(table)
