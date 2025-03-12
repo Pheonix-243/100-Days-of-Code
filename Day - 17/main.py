@@ -16,10 +16,21 @@ class User:  # Define a class named "User"
         # 'user_id' be a parameter that we go pass when creating a user.
 
         self.id = user_id
-        self.user_
+        self.name = user_name
+        self.followers = []
+        self.following = []
 
-user_1 = User(34)
+    def follow(self,user_two):
+        self.following.append(user_two)
+    def unfollow(self, user_two):
+
+
+
+user_1 = User(34, "Bright")
+user_1 = User(35, "Elsi")
 
 
 print(user_1)
 print(user_1.id)
+print(user_1.name)
+
