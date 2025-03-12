@@ -1,36 +1,38 @@
-
-# ----------------------------
-# Creating a Class in Python
-# ----------------------------
-
-# A class be like a blueprint (plan) for creating objects.
-# Objects be instances of a class (they follow the structure of the class).
-# Example: A "User" class fit be a template for creating different users.
-
-class User:  # Define a class named "User"
-    # The __init__ method is a constructor (it initializes attributes).
-    # It runs automatically whenever a new object is created from the class.
-
+class User:
     def __init__(self, user_id, user_name):
-        # The 'self' parameter refers to the specific object being created.
-        # 'user_id' be a parameter that we go pass when creating a user.
-
         self.id = user_id
         self.name = user_name
         self.followers = []
         self.following = []
 
-    def follow(self,user_two):
-        self.following.append(user_two)
-    def unfollow(self, user_two):
+    def follow(self, user_two):
+        if user_two not in self.following:
+            self.following.append(user_two)
+            user_two.followers.append(self)
 
+    def unfollow(self, user_two):
+        if user_two in self.following:
+            self.following.remove(user_two)
+            user_two.followers.remove(self)
+
+    def num_followers(self):
+        return len(self.followers)
+
+    def num_following(self):
+        return len(self.following)
 
 
 user_1 = User(34, "Bright")
-user_1 = User(35, "Elsi")
+user_2 = User(35, "Elsi")
+user_3 = User(32,"Albert")
 
+user_2.follow(user_1)
+user_3.follow(user_1)
+user_2.unfollow(user_1)
 
-print(user_1)
-print(user_1.id)
-print(user_1.name)
+print(user_1.name, "is following", user_1.num_following(), "users.")
+print(user_2.name, "has", user_2.num_followers(), "followers.")
 
+print(user_1.num_followers())
+
+print(user_1.followers)
