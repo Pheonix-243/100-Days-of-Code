@@ -10,7 +10,7 @@ class MyClass:  # Missing docstring
         self.a = 1  # Poor variable naming
 
     def method_one(self):  # Missing docstring
-        b = 2  # Poor variable naming
+        b = 42  # Poor variable naming
         print(b)
 
 def another_function():  # Missing docstring
