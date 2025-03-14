@@ -1,8 +1,8 @@
 import os  # Unused import
 
 def my_function():  # Missing docstring
-    x = 130  # Poor variable naming
-    y = 250  # Unused variable
+    x = 10  # Poor variable naming
+    y = 20  # Unused variable
     print(x)
 
 class MyClass:  # Missing docstring
