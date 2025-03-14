@@ -2,7 +2,7 @@ import os  # Unused import
 
 def my_function():  # Missing docstring
     x = 140  # Poor variable naming
-    y = 240  # Unused variable
+    y = 2440  # Unused variable
     print(x)
 
 class MyClass:  # Missing docstring
