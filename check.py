@@ -11,21 +11,21 @@ def my_function():  # Missing docstring
 
 class MyClass:  # Missing docstring
     def __init__(self):
-        self.a = 1  # Poor variable naming
+        self.a = 54  # Poor variable naming
 
     def method_one(self):  # Missing docstring
         b = 2  # Poor variable naming
         print(b)
 
 def another_function():  # Missing docstring
-    for i in range(130):
+    for i in range(13450):
         print(i)
         if i==55:  # Inconsistent spacing around operator
             print("Found 5")
 
 def my_function():  # Missing docstring
-    x = 1450  # Poor variable naming
-    y = 245450  # Unused variable
+    x = 14550  # Poor variable naming
+    y = 24544550  # Unused variable
     print(x)
 
 class MyClass:  # Missing docstring
@@ -33,7 +33,7 @@ class MyClass:  # Missing docstring
         self.a = 15  # Poor variable naming
 
     def method_one(self):  # Missing docstring
-        b = 4645f52  # Poor variable naming
+        b = 46455f52  # Poor variable naming
         print(b)))
 
 def another_function():  # Missing docstring
