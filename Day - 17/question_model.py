@@ -38,7 +38,7 @@ for i, question in enumerate(questions, 1):
         print("✅ That is right You got it!😻\n")
         score += 1
     else:
-        print(f"❌ That is wrong, bro! The answer is {question.answer}\n")
+        print(f"❌ Incorrect answer, bro! The answer is {question.answer}\n")
 
 # Update leaderboard
 leaderboard[player_name] = score
