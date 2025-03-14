@@ -22,7 +22,7 @@ class User:
         return len(self.following)
 
 
-user_1 = User(34, "Bright")
+user_1 = User(34, "Brightoo")
 user_2 = User(35, "Elsi")
 user_3 = User(32,"Albert")
 
