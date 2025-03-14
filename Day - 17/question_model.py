@@ -35,7 +35,7 @@ for i, question in enumerate(questions, 1):
     if elapsed_time > 5:
         print("⏳ Time up! You lost this one! 😭\n")
     elif user_ans == question.answer:
-        print("✅ That is right!😻\n")
+        print("✅ That is right You got it!😻\n")
         score += 1
     else:
         print(f"❌ That is wrong, bro! The answer is {question.answer}\n")
