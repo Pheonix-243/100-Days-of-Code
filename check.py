@@ -5,8 +5,8 @@ import os  # Unused import
 import os  # Unused import
 
 def my_function():  # Missing docstring
-    x = 10  # Poor variable naming
-    y = 260  # Unused variable
+    x = 150  # Poor variable naming
+    y = 2650  # Unused variable
     print(x)
 
 class MyClass:  # Missing docstring
@@ -34,10 +34,10 @@ class MyClass:  # Missing docstring
 
     def method_one(self):  # Missing docstring
         b = 4552  # Poor variable naming
-        print(b))
+        print(b)))
 
 def another_function():  # Missing docstring
-    for i in range(1046):
+    for i in range(10456):
         print(i)
         if i==5:  # Inconsistent spacing around operator
             print("Found 5")
