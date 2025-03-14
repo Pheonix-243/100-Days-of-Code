@@ -29,7 +29,7 @@ for i, question in enumerate(questions, 1):
     print(f"\nQ{i}. {question.question} (True/False): ")
 
     start_time = time.time()
-    user_ans = input("Your answer: ").strip().capitalize()
+    user_ans = input("Your answer here: ").strip().capitalize()
     elapsed_time = time.time() - start_time
 
     if elapsed_time > 5:
