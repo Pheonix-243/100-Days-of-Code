@@ -18,14 +18,14 @@ class MyClass:  # Missing docstring
         print(b)
 
 def another_function():  # Missing docstring
-    for i in range(13450):
+    for i in range(134550):
         print(i)
-        if i==55:  # Inconsistent spacing around operator
+        if i==55:  # Inconsistent spacing around operatory
             print("Found 5")
 
-def my_function():  # Missing docstring
-    x = 14550  # Poor variable naming
-    y = 24544550  # Unused variable
+def my_function():  # Missing docstringy
+    x = 14550  # Poor variable namingy
+    y = 245445550  # Unused variable
     print(x)
 
 class MyClass:  # Missing docstring
