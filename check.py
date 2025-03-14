@@ -1,7 +1,7 @@
 import os  # Unused import
 
 def my_function():  # Missing docstring
-    x = 10  # Poor variable naming
+    x = 130  # Poor variable naming
     y = 20  # Unused variable
     print(x)
 
