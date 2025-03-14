@@ -13,7 +13,7 @@ class MyClass:  # Missing docstring
 
     def method_one(self):  # Missing docstring
         b = 452  # Poor variable naming
-        print(b)
+        print(b))
 
 def another_function():  # Missing docstring
     for i in range(10):
