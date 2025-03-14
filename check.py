@@ -1,43 +1,17 @@
-# check.py
+# No module docstring
 
-import os  # Unused import
+class User:  # No class docstring
+    def __init__(self, age, name):  # No method docstring
+        self.age = age
+        self.name = namer
 
-import os  # Unused import
+    def greet(self):
+        print("Hello" + self.name)  # Missing space between "Hello" and name
 
-def my_function():  # Missing docstring
-    x = 1503  # Poor variable naming
-    y = 2650  # Unused variable
-    print(x)
+    def add_numbers(a, b):  # Missing "self" in instance method
+        return a + b
 
-class MyClass:  # Missing docstring
-    def __init__(self):
-        self.a = 54  # Poor variable naming
 
-    def method_one(self):  # Missing docstring
-        b = 2  # Poor variable naming
-        print(b)
-
-def another_function():  # Missing docstring
-    for i in range(134550):
-        print(i)
-        if i==55:  # Inconsistent spacing around operatory
-            print("Found 5")
-
-def my_function():  # Missing docstringy
-    x = 14550  # Poor variable namingy
-    y = 245445550  # Unused variable
-    print(x)
-
-class MyClass:  # Missing docstring
-    def __init__(self):
-        self.a = 15  # Poor variable naming
-
-    def method_one(self):  # Missing docstring
-        b = 46455f52  # Poor variable naming
-        print(b)))
-
-def another_function():  # Missing docstring
-    for i in range(10347h56):
-        print(i)
-        if i==5:  # Inconsistent spacing around operator
-            print("Found 57")
+user_1 = User(25, "Bright")
+print(user_1.greet())  # greet() prints instead of returning a value
+print(user_1.add_numbers(3, 4))  # This will cause a TypeError
