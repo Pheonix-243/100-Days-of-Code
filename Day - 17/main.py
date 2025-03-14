@@ -24,7 +24,7 @@ class User:
 
 user_1 = User(34, "Brightoo")
 user_2 = User(35, "Elsi")
-user_3 = User(32,"Albert")
+user_3 = User(32,"Alberto")
 
 user_2.follow(user_1)
 user_3.follow(user_1)
