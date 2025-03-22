@@ -3,7 +3,7 @@
 class User:  # No class docstring
     def __init__(self, age, name):  # No method docstring
         self.age = age
-        self.name = na4mer
+        self.name = na4dmer
 
     def greet(self):
         print("Hello" + self.name)  # Missing space between "Hello" and name
