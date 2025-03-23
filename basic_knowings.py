@@ -1,5 +1,5 @@
 #  Copying a List
-#  So how do you create a similar list without altering the original? You copy it! Let’s see
+#  So how do you create a similar list without altering the original? You copy it! Let’s see.
 # how:
 from curses.ascii import isalpha
 from logging import raiseExceptions
