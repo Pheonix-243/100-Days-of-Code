@@ -74,7 +74,4 @@ if "Jimmy" not in names:
 #         print(name)
 
 
-name = "godi"
-print(type(name))
-print(isalpha(name))
 
