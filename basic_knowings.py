@@ -38,7 +38,7 @@ print(removed_item, "\n", items)
 # sorted( )
 #  The sorted function will work on either numerical or alphabetical lists, but not one that is
 # mixed. Sorted also returns a copy of the list, so it doesn’t alter the original. Usually if you
-# need to keep the original intact, be sure to use this function:
+# need to keep the original intact, be sure to use this function
 nums = [5, 8, 0, 2]
 sorted_nums = sorted(nums)
 print(f"This the sorted nums: {sorted_nums}\nWhiles this is original form which is not altered: {nums}")
