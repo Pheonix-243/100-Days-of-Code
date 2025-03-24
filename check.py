@@ -6,7 +6,7 @@ class User:  # No class docstring
         self.name = na4mer
 
     def greet(self):
-        print("Hello" + self.name)  # Missing space between "Hello" and name
+        print("Helllo" + self.name)  # Missing space between "Hello" and name
 
     def add_numbers(a, b):  # Missing "self" in instance method
         return a + b
