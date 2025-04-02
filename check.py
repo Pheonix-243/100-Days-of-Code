@@ -6,12 +6,12 @@ class User:  # No class docstring
         self.name = na4mer
 
     def greet(self):
-        print("Helllo" + self.name)  # Missing space between "Hello" and name
+        print("Hello" + self.name)  # Missing space between "Hello" and name
 
     def add_numbers(a, b):  # Missing "self" in instance method
         return a + b
 
-
-user_1 = User(25, "Brif4ghet")
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+user_1 = User(25, "Brif4ghet")*123qwerty*
 print(user_1.greet())  # greet() prints instead of returning a value
 print(user_1.add_numbers(3, 4, 5))  # This will cause a TypeError
